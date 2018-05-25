@@ -1,0 +1,17 @@
+current directory: /app/weather-forecast/vendor/bundler/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+/home/vagrant/.rbenv/versions/2.4.2/bin/ruby -r ./siteconf20180525-11160-1shy2la.rb extconf.rb
+creating Makefile
+
+current directory: /app/weather-forecast/vendor/bundler/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /app/weather-forecast/vendor/bundler/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /app/weather-forecast/vendor/bundler/ruby/2.4.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+make: Warning: File `cruby.so' has modification time 0.0049 s in the future
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20180525-11160-1xi6nho/bindex
+make: 警告:  時刻のずれを検出. 不完全なビルド結果になるかもしれません.
