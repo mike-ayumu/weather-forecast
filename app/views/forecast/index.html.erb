@@ -1,0 +1,9 @@
+<div class="main posts-index">
+  <div class="container">
+    <% @posts.each do |post| %>
+    <div class="posts-index-item">
+      <%= simple_format(post) %>
+    </div>
+    <% end %>
+  </div>
+</div>

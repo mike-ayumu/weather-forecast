@@ -9,6 +9,18 @@
   </head>
 
   <body>
+    <header>
+      <div class="header-logo">
+        <%= link_to("天気予報🌦", "/home") %>
+      </div>
+      <ul class="header-menus">
+        <li>
+          <%= link_to("天気予報を検索", "/forecast/Tokyo") %>
+        </li>
+      </ul>
+    </header>
+
     <%= yield %>
+
   </body>
 </html>
